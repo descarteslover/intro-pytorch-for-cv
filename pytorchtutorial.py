@@ -35,4 +35,4 @@ if torch.accelerator.is_available():
     print("Entered if")
     tensor = tensor.to("cuda")
 
-print(f"Device tensor is stored on lo: {tensor.device}")
+print(f"Device tensor is stored on: {tensor.device}")
